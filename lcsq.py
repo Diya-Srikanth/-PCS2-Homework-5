@@ -28,7 +28,7 @@ def lcsq(a, b):
 
 if __name__ == "__main__":
     strings = []
-    with open("lcsqq.txt") as file:
+    with open("rosalind_lcsq.txt") as file:
         for info in SeqIO.parse(file, "fasta"):
             strings.append(info.seq)
     a, b = strings
