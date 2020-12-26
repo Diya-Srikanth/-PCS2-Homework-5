@@ -30,7 +30,7 @@ for i in range(len(listed)):
         n.append(c)
 
 if __name__ == "__main__":
-    with open("orf6.txt", "r") as file:
+    with open("rosalind_orf.txt", "r") as file:
         for seq_record in SeqIO.parse(file, "fasta"):
             a = str(seq_record.seq)
 
