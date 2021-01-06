@@ -1,5 +1,3 @@
-import networkx as nx
-
 with open("rosalind_tree.txt") as file:
     file = file.read()
     f = file.splitlines()
